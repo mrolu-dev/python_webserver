@@ -22,5 +22,5 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: ${{secrets.DOCKER_USERNAME}}/webserver:latest
+          tags: ${{secrets.DOCKER_USERNAME}}/pythonserver:v1
           
