@@ -26,7 +26,7 @@ jobs:
         context: .
         push: true
         tags: ${{secrets.DOCKER_USERNAME}}/pythonserver:v1
-        platforms: linux/amd64,linux/arm64
+        
     - name: Image digest
       id: image_digest
       run: echo "Digest = ${{steps.build.outputs.digest}}"
