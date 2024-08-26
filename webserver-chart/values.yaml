@@ -1,8 +1,8 @@
 replicaCount: 1
 
 image:
-  repository: ristabel/pythonserver
-  tag: v1
+  repository: marosavat/job
+  tag: latest
   pullPolicy: IfNotPresent
 
 service:
